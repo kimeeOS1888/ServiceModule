@@ -22,6 +22,9 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		792A2BCB22CDD11F009DDE1E /* ServiceModule+Login.m in Sources */ = {isa = PBXBuildFile; fileRef = 792A2BCA22CDD11F009DDE1E /* ServiceModule+Login.m */; };
+		792A2BCE22CDD14E009DDE1E /* LoginService.m in Sources */ = {isa = PBXBuildFile; fileRef = 792A2BCD22CDD14E009DDE1E /* LoginService.m */; };
+		792A2BD122CDD162009DDE1E /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792A2BD022CDD162009DDE1E /* LoginViewController.m */; };
 		856F1DD40EED7D3585E1C16E /* Pods_ServiceModule_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 245F5B8207C0DDA32898EC52 /* Pods_ServiceModule_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 /* End PBXBuildFile section */
@@ -37,10 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1AF02C34D4D343115D495F4A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1AF02C34D4D343115D495F4A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		245F5B8207C0DDA32898EC52 /* Pods_ServiceModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ServiceModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		46B839A1B281C3D04C557D4B /* Pods_ServiceModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ServiceModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D7D9D36E50465023F29454B /* ServiceModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ServiceModule.podspec; path = ../ServiceModule.podspec; sourceTree = "<group>"; };
+		5D7D9D36E50465023F29454B /* ServiceModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ServiceModule.podspec; path = ../ServiceModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* ServiceModule_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ServiceModule_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,9 +67,15 @@
 		707A8CAD67B7C6B125DA8735 /* Pods-ServiceModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ServiceModule_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ServiceModule_Tests/Pods-ServiceModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76FE59E62AEE2A7EA1CFACE8 /* Pods-ServiceModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ServiceModule_Example.release.xcconfig"; path = "Target Support Files/Pods-ServiceModule_Example/Pods-ServiceModule_Example.release.xcconfig"; sourceTree = "<group>"; };
+		792A2BC922CDD11F009DDE1E /* ServiceModule+Login.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ServiceModule+Login.h"; sourceTree = "<group>"; };
+		792A2BCA22CDD11F009DDE1E /* ServiceModule+Login.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ServiceModule+Login.m"; sourceTree = "<group>"; };
+		792A2BCC22CDD14E009DDE1E /* LoginService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginService.h; sourceTree = "<group>"; };
+		792A2BCD22CDD14E009DDE1E /* LoginService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginService.m; sourceTree = "<group>"; };
+		792A2BCF22CDD162009DDE1E /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		792A2BD022CDD162009DDE1E /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9509C2A33309244918218D5B /* Pods-ServiceModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ServiceModule_Tests.release.xcconfig"; path = "Target Support Files/Pods-ServiceModule_Tests/Pods-ServiceModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		ABF561A3A818D6D2E1D93529 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		ABF561A3A818D6D2E1D93529 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +148,7 @@
 				6003F5A6195388D20070C39A /* SMViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
+				792A2BC822CDD0F3009DDE1E /* LoginModule */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
 			name = "Example for ServiceModule";
@@ -193,8 +203,20 @@
 				707A8CAD67B7C6B125DA8735 /* Pods-ServiceModule_Tests.debug.xcconfig */,
 				9509C2A33309244918218D5B /* Pods-ServiceModule_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		792A2BC822CDD0F3009DDE1E /* LoginModule */ = {
+			isa = PBXGroup;
+			children = (
+				792A2BC922CDD11F009DDE1E /* ServiceModule+Login.h */,
+				792A2BCA22CDD11F009DDE1E /* ServiceModule+Login.m */,
+				792A2BCC22CDD14E009DDE1E /* LoginService.h */,
+				792A2BCD22CDD14E009DDE1E /* LoginService.m */,
+				792A2BCF22CDD162009DDE1E /* LoginViewController.h */,
+				792A2BD022CDD162009DDE1E /* LoginViewController.m */,
+			);
+			name = LoginModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,9 +267,12 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = SM;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "574068650@qq.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 579P9269QX;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +283,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -366,7 +392,10 @@
 			files = (
 				6003F59E195388D20070C39A /* SMAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* SMViewController.m in Sources */,
+				792A2BD122CDD162009DDE1E /* LoginViewController.m in Sources */,
+				792A2BCE22CDD14E009DDE1E /* LoginService.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				792A2BCB22CDD11F009DDE1E /* ServiceModule+Login.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,23 +449,37 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -449,7 +492,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -460,29 +503,43 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -494,6 +551,7 @@
 			baseConfigurationReference = 604FBEF2558F787754066C5A /* Pods-ServiceModule_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 579P9269QX;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ServiceModule/ServiceModule-Prefix.pch";
 				INFOPLIST_FILE = "ServiceModule/ServiceModule-Info.plist";
@@ -510,6 +568,7 @@
 			baseConfigurationReference = 76FE59E62AEE2A7EA1CFACE8 /* Pods-ServiceModule_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 579P9269QX;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ServiceModule/ServiceModule-Prefix.pch";
 				INFOPLIST_FILE = "ServiceModule/ServiceModule-Info.plist";

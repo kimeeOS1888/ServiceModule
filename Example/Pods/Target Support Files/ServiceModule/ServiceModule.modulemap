@@ -1,0 +1,6 @@
+framework module ServiceModule {
+  umbrella header "ServiceModule-umbrella.h"
+
+  export *
+  module * { export * }
+}
