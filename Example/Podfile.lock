@@ -1,5 +1,5 @@
 PODS:
-  - ServiceModule (1.0.0)
+  - ServiceModule (1.0.1)
 
 DEPENDENCIES:
   - ServiceModule (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ServiceModule: 2b4db379c3d795f1806899b9a9f54f0e9d0688d1
+  ServiceModule: c1f7adbc96547d17aa60b102335b02f5518f8695
 
 PODFILE CHECKSUM: 0f2cabe9bb516845322346e01375ec41291d9968
 
